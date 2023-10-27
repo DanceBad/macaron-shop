@@ -106,7 +106,7 @@
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
 
 
 /* GENERAL CSS SETTINGS */
@@ -151,32 +151,70 @@ body {
     color: #000000;
 }
 
-/* header */
+/* nav */
 
-.header .container{
+.nav .container{
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
 }
-.header{
+.nav{
     padding: 15px;
     background-color: #F7EBE5;
 }
-.header__left-item{
+.nav__left-item{
     margin-right: 15px;
 
 }
-.header__left-item:last-child{
+.nav__left-item:last-child{
     margin: 0;
 }
-.header__left{
+.nav__left{
     margin-right: 150px;
-}
-.header__right{
     display: flex;
 }
-.header__right-item{
-
+.nav__right{
+    display: flex;
+}
+.nav__right-item{
+    padding-top: 5px;
     margin-right: 25px;
 
 }
+.nav__right-item svg{
+margin-right: 5px;
+
+}
+
+/* header */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+}
+.header__left-item {
+    color: #2B1414;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+.percent-mark{
+    width: 16px;
+    height: 18px;
+    border: 1px solid #E7426A;
+    background-color:  #E7426A;
+    color: #F7EBE5;
+    border-radius:50% ;
+    padding:3px 4px;
+  
+}
+.header__right-item {
+    color: #2B1414;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 30px;
+}
+
+
